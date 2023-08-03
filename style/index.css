@@ -1,0 +1,182 @@
+
+html,body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+p {
+    line-height: 20px;
+    font-size: 18px;
+}
+h2 {
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+nav {
+    height: 80px;
+    background-color: #0346AE;
+    
+    
+}
+.nav-container {
+    padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.menu-section  {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    
+  
+
+}
+.nav-container ul {
+    display: flex;
+    
+
+}
+.nav-container li {
+    margin-left: 30px;
+}
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.search {
+
+    margin-left: 20px;
+}
+main {
+    padding: 50px 0;
+}
+/* footerstart */
+ .footer {width:100%;text-align:left;margin-left:0
+}
+/* .footer {
+    margin: 30px;
+} */
+.icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.home {
+  margin: 30px 0px;
+}
+  /* box */
+  .container-box {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px ;
+margin-bottom: 10px;
+
+   
+  }
+.box-cad {
+ /* width: 50%; */
+ height: 450px;
+ /* height: 50%; */
+    background-color: #dddd
+    ;
+    
+
+
+}
+.box-cad a {
+    text-decoration: none;
+    color: black;
+}
+.box-cad img {
+       width: 100%;
+}
+.card-tag {
+    width: 100%;
+
+    
+    display: flex;
+    justify-content: center;
+}
+.middle {
+    padding: 10px;
+   
+  color: aliceblue;
+    background-color: #0346AE;
+    margin-top: -20px;
+    
+    
+
+}
+.text {
+    margin: 10px 40px;
+    
+
+}
+.text h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+main .number {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .next {
+    display: flex;
+    justify-content: end;
+}
+.gap {
+        display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+}
+.box {
+    padding: 15px;
+    background-color: #dddd;
+border: 1px solid black;
+color: green;
+margin-bottom: 10px;
+}
+table,
+td,
+th {
+    margin: 10px 0px;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width:30%
+}
+
+table td {
+    padding: 5px 10px;
+
+}
+table th {
+    padding: 5px 10px;
+}
+blockquote {
+    padding: 10px;
+    border-left: 4px solid rgb(221, 221, 221);
+    color: rgb(119, 119,119 );
+}
+.hm {
+    border-width: 0;
+    background-color:gray;
+    color: grey;
+    height: 5px;
+}
